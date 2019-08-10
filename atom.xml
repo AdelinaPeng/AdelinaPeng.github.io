@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>littleAnn</title>
   
-  
+  <subtitle>向着光芒的女孩</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://littleann.github.io/"/>
