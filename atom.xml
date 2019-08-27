@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://littleann.github.io/"/>
-  <updated>2019-08-24T12:02:26.241Z</updated>
+  <updated>2019-08-27T14:58:38.969Z</updated>
   <id>https://littleann.github.io/</id>
   
   <author>
@@ -15,6 +15,37 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>js中的setTimeout的this指向window对象</title>
+    <link href="https://littleann.github.io/2019/08/27/settimeout/"/>
+    <id>https://littleann.github.io/2019/08/27/settimeout/</id>
+    <published>2019-08-27T10:51:17.000Z</published>
+    <updated>2019-08-27T14:58:38.969Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;研究了一上午发现setTimeout的使用jquery的$(this)总是赋值不上，后来打印了一下，发现原来setTimeout里使用this指向的是window。&lt;/p&gt;
+&lt;pre class=&quot; language-bash&quot;&gt;&lt;code
+        
+      
+    
+    </summary>
+    
+      <category term="技术" scheme="https://littleann.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="setTimeout" scheme="https://littleann.github.io/tags/setTimeout/"/>
+    
+      <category term="javascript" scheme="https://littleann.github.io/tags/javascript/"/>
+    
+      <category term="this" scheme="https://littleann.github.io/tags/this/"/>
+    
+  </entry>
   
   <entry>
     <title>webpack警告The &#39;mode&#39; option has not been set</title>
@@ -39,9 +70,9 @@
       <category term="技术" scheme="https://littleann.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
     
     
-      <category term="webpack" scheme="https://littleann.github.io/tags/webpack/"/>
-    
       <category term="javascript" scheme="https://littleann.github.io/tags/javascript/"/>
+    
+      <category term="webpack" scheme="https://littleann.github.io/tags/webpack/"/>
     
   </entry>
   
