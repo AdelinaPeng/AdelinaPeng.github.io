@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://littleann.github.io/"/>
-  <updated>2019-08-27T14:58:38.969Z</updated>
+  <updated>2019-09-23T14:15:14.011Z</updated>
   <id>https://littleann.github.io/</id>
   
   <author>
@@ -15,6 +15,43 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>配置pagekit的404页面</title>
+    <link href="https://littleann.github.io/2019/09/23/pagekitfor404/"/>
+    <id>https://littleann.github.io/2019/09/23/pagekitfor404/</id>
+    <published>2019-09-23T13:54:50.000Z</published>
+    <updated>2019-09-23T14:15:14.011Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;版本:1.0.17&lt;/p&gt;
+&lt;p&gt;（1）打开：app\modules\session\index.php&lt;/p&gt;
+&lt;p&gt;把&lt;/p&gt;
+&lt;pre&gt;
+  if (!isset($app[&#39;session.options&#39;][&#39;cookie_path&#39;])) {
+     
+        
+      
+    
+    </summary>
+    
+      <category term="CMS" scheme="https://littleann.github.io/categories/CMS/"/>
+    
+    
+      <category term="404" scheme="https://littleann.github.io/tags/404/"/>
+    
+      <category term="php" scheme="https://littleann.github.io/tags/php/"/>
+    
+      <category term="pagekit" scheme="https://littleann.github.io/tags/pagekit/"/>
+    
+      <category term="CMS" scheme="https://littleann.github.io/tags/CMS/"/>
+    
+  </entry>
   
   <entry>
     <title>js中的setTimeout的this指向window对象</title>
