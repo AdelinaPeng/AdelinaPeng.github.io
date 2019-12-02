@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://littleann.github.io/"/>
-  <updated>2019-09-23T14:15:14.011Z</updated>
+  <updated>2019-12-02T15:20:26.130Z</updated>
   <id>https://littleann.github.io/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>【前端笔记】20191202-为什么vue组件没有随着数据更新值</title>
+    <link href="https://littleann.github.io/2019/12/02/note-20191208/"/>
+    <id>https://littleann.github.io/2019/12/02/note-20191208/</id>
+    <published>2019-12-02T15:17:11.000Z</published>
+    <updated>2019-12-02T15:20:26.130Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;(1)字体用相对单位比较好，比如 0.875rem去替换14px&lt;/p&gt;
+&lt;p&gt;(2)vue的使用事件修饰符防止冒泡事件的点击事件:
+        
+      
+    
+    </summary>
+    
+    
+      <category term="前端笔记" scheme="https://littleann.github.io/tags/%E5%89%8D%E7%AB%AF%E7%AC%94%E8%AE%B0/"/>
+    
+  </entry>
   
   <entry>
     <title>配置pagekit的404页面</title>

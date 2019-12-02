@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>【前端笔记】20191202-为什么vue组件没有随着数据更新值</title>
+      <link href="/2019/12/02/note-20191208/"/>
+      <url>/2019/12/02/note-20191208/</url>
+      
+        <content type="html"><![CDATA[<p>(1)字体用相对单位比较好，比如 0.875rem去替换14px</p><p>(2)vue的使用事件修饰符防止冒泡事件的点击事件: @click.stop=”xxx”</p><p>(3)vue-element-admin路由想不缓存，在router/index.js中不设置name属性就可以，一般都会缓存组件，表单数据不进行缓存，vue暂不支持</p><p>name:’router-name’ the name is used by <keep-alive>(must set),这会导致路由页面的组件数据被缓存</keep-alive></p><p>(4)【重点】为什么vue组件没有随着数据更新值<br>场景：在使用element-ui的table时自己写了一个插槽slot，封装了一个提示文字的组件，发现搜索和分页时自定义的组件渲染的数据还是第一次渲染的数据</p><p>解决方案：组件传值，如果父组件的值会变化，那最好通过watch实现父组件的值实时赋值给子组件，也可以双向数据绑定，如下</p><pre class=" language-bash"><code class="language-bash">watch: <span class="token punctuation">{</span>    adxContent<span class="token punctuation">(</span>newVal, oldVal<span class="token punctuation">)</span> <span class="token punctuation">{</span> //监听子组件变化，把变化发送给父组件    this.<span class="token variable">$emit</span><span class="token punctuation">(</span>‘update:content’, newVal<span class="token punctuation">)</span><span class="token punctuation">;</span>    <span class="token punctuation">}</span>,    content<span class="token punctuation">(</span>newVal, oldVal<span class="token punctuation">)</span> <span class="token punctuation">{</span> //监听父组件的变化，并把变化发给子组件    this.adxContent<span class="token operator">=</span> newVal<span class="token punctuation">;</span>    <span class="token punctuation">}</span>,<span class="token punctuation">}</span>,</code></pre>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 前端笔记 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>配置pagekit的404页面</title>
       <link href="/2019/09/23/pagekitfor404/"/>
       <url>/2019/09/23/pagekitfor404/</url>
