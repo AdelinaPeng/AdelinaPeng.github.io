@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://littleann.github.io/"/>
-  <updated>2020-04-14T13:33:12.145Z</updated>
+  <updated>2020-04-14T14:07:59.215Z</updated>
   <id>https://littleann.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://littleann.github.io/2020/04/14/chrome-localfile-cross-origin/"/>
     <id>https://littleann.github.io/2020/04/14/chrome-localfile-cross-origin/</id>
     <published>2020-04-14T09:52:30.000Z</published>
-    <updated>2020-04-14T13:33:12.145Z</updated>
+    <updated>2020-04-14T14:07:59.215Z</updated>
     
     <summary type="html">
     
@@ -30,7 +30,7 @@
         
         
           &lt;p&gt;本地文件用浏览器打开是 file协议，file:///***.html如果有跨域请求，会在控制台报错&lt;/p&gt;
-&lt;img
+&lt;p&gt;&lt;img
         
       
     
