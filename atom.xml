@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>littleAnn</title>
+  <title>LittleAnn</title>
   
   <subtitle>向着光芒的女孩</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://littleann.github.io/"/>
-  <updated>2019-12-02T15:20:26.130Z</updated>
+  <updated>2020-04-14T12:33:14.104Z</updated>
   <id>https://littleann.github.io/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>【跨域】谷歌chrome浏览器本地文件跨域配置不生效</title>
+    <link href="https://littleann.github.io/2020/04/14/chrome-localfile-cross-origin/"/>
+    <id>https://littleann.github.io/2020/04/14/chrome-localfile-cross-origin/</id>
+    <published>2020-04-14T09:52:30.000Z</published>
+    <updated>2020-04-14T12:33:14.104Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;本地文件用浏览器打开是 file协议，file:///***.html如果有跨域请求，会在控制台报错&lt;/p&gt;
+&lt;img
+        
+      
+    
+    </summary>
+    
+    
+      <category term="chrome" scheme="https://littleann.github.io/tags/chrome/"/>
+    
+      <category term="跨域" scheme="https://littleann.github.io/tags/%E8%B7%A8%E5%9F%9F/"/>
+    
+  </entry>
   
   <entry>
     <title>【前端笔记】20191202-为什么vue组件没有随着数据更新值</title>
@@ -143,7 +170,7 @@
     <link href="https://littleann.github.io/2019/08/10/hello-world/"/>
     <id>https://littleann.github.io/2019/08/10/hello-world/</id>
     <published>2019-08-10T10:24:31.445Z</published>
-    <updated>2019-08-24T11:50:50.903Z</updated>
+    <updated>2020-04-14T12:11:00.921Z</updated>
     
     <summary type="html">
     
