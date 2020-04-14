@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://littleann.github.io/"/>
-  <updated>2020-04-14T12:33:14.104Z</updated>
+  <updated>2020-04-14T13:33:12.145Z</updated>
   <id>https://littleann.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://littleann.github.io/2020/04/14/chrome-localfile-cross-origin/"/>
     <id>https://littleann.github.io/2020/04/14/chrome-localfile-cross-origin/</id>
     <published>2020-04-14T09:52:30.000Z</published>
-    <updated>2020-04-14T12:33:14.104Z</updated>
+    <updated>2020-04-14T13:33:12.145Z</updated>
     
     <summary type="html">
     
@@ -35,6 +35,8 @@
       
     
     </summary>
+    
+      <category term="跨域" scheme="https://littleann.github.io/categories/%E8%B7%A8%E5%9F%9F/"/>
     
     
       <category term="chrome" scheme="https://littleann.github.io/tags/chrome/"/>
@@ -141,7 +143,7 @@
     <link href="https://littleann.github.io/2019/08/24/my-new-post-of-webpack/"/>
     <id>https://littleann.github.io/2019/08/24/my-new-post-of-webpack/</id>
     <published>2019-08-24T09:36:40.000Z</published>
-    <updated>2019-08-24T12:02:26.241Z</updated>
+    <updated>2020-04-14T13:32:41.462Z</updated>
     
     <summary type="html">
     
